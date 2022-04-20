@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+<body>
+    <style>
+        .button {
+            position: relative;
+            top: 300px;
+            left: 500px;
+            width: 150px;
+            line-height: 50px;
+            text-transform: uppercase;
+            padding: 20px 45px;
+        }   
+    
+        .bu1 {
+            margin-bottom: 100px;
+            border: 1px solid black;
+            padding: 15px 30px;
+            border-radius: 15px;
+            right: 300px;
+            top: 50px;
+            position: relative;
+        }
+    
+        .bu2 {
+            margin-bottom: 100px;
+            border: 1px solid black;
+            padding: 15px 30px;
+            border-radius: 15px;
+            left: 300px;
+            position: relative;
+        }
+    
+        .container {
+            position: relative;
+            left: 100px;
+            font-family: sans-serif;
+    
+        }
+    
+        .int {
+            width: 1000px;
+            border-radius: 5px;
+            justify-content: space-between;
+        }
+    
+        .text {
+            position: relative;
+            left: 145px;
+        }
+    </style>
+    
+    <div class="container">
+        <div>
+            <p> <span class="text"> Name</span></p>
+            <label for="name">name.com/eng/</label>
+            <input type="text" class="int" id="name" value="Razdel kakoy-to" readonly>
+        </div>
+    
+        <div>
+            <p><span class="text"> URL</span></p>
+            <label for="url">name.com/eng/</label>
+            <input type="text" class="int" id="url" value="namrazdel/namerazdel-1/name-podrazdel-365" readonly>
+        </div>
+
+        <div class="button">
+            <a class="bu1">save</a>
+            <a class="bu2">cancle</a>
+        </div>
+    </div>
+</body>
+</html>
